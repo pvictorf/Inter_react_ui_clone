@@ -6,7 +6,7 @@ interface Props {
   onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
-const Outline = styled.button`
+const ButtonOutlineStyled = styled.button`
   display: block;
   padding: 0.8rem 1.1rem;
   width: 100%;
@@ -20,8 +20,8 @@ const Outline = styled.button`
 
 export const ButtonOutline = ({title, role, onClick}: Props) => {
   return (
-    <Outline role={role} onClick={onClick}>
+    <ButtonOutlineStyled role={role} onClick={onClick}>
       {title}
-    </Outline>
+    </ButtonOutlineStyled>
   )
 }

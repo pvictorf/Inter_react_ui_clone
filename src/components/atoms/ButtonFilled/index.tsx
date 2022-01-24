@@ -6,7 +6,7 @@ interface Props {
   onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
-const Filled = styled.button`
+const ButtonFilledStyled = styled.button`
   display: block;
   padding: 0.8rem 1.1rem;
   width: 100%;
@@ -20,8 +20,8 @@ const Filled = styled.button`
 
 export const ButtonFilled = ({title, role, onClick}: Props) => {
   return (
-    <Filled role={role} onClick={onClick}>
+    <ButtonFilledStyled role={role} onClick={onClick}>
       {title}
-    </Filled>
+    </ButtonFilledStyled>
   )
 }

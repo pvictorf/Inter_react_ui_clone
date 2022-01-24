@@ -8,7 +8,7 @@ export const Navbar = () => {
         <Navlink title="O Inter" icon={true} />
         <Navlink title="Pra você" icon={true} />
         <Navlink title="Empresas" icon={true} />
-        <Navlink title="Blog" icon={true} />
+        <Navlink title="Blog" />
     </S.Navbar>
   )
 }

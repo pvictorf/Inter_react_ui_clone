@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Navbar = styled.nav`
   display: grid;
   grid-auto-flow: column;
-  grid-gap: 1.5rem;
+  grid-gap: 1rem;
   align-items: center;
   justify-items: center;
   justify-content: end;
