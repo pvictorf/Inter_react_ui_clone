@@ -5,8 +5,8 @@ import { Navlink } from '../../atoms/Navlink';
 export const Navbar = () => {
   return (
     <S.Navbar role="navigation">
-        <Navlink title="Inter" icon={true} />
-        <Navlink title="Para você" icon={true} />
+        <Navlink title="O Inter" icon={true} />
+        <Navlink title="Pra você" icon={true} />
         <Navlink title="Empresas" icon={true} />
         <Navlink title="Blog" icon={true} />
     </S.Navbar>

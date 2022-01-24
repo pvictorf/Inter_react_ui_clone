@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   display: grid;
-  grid-template-columns: 95px 1fr auto auto;
+  grid-template-columns: 100px 1fr auto auto;
   grid-gap: 1.6rem;
   padding: 1rem 1.8rem;
   align-items: center;
