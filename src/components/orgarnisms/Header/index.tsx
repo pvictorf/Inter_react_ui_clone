@@ -32,7 +32,8 @@ export const Header = () => {
   }, [headerBg]);
 
   return (
-      <S.HeaderContainer >
+      <S.Header>
+        <S.HeaderContainer >
         <Logo />
         <Navbar />
         <S.Actions>
@@ -44,5 +45,6 @@ export const Header = () => {
           <Flag image="usa" />
         </S.Flags>
       </S.HeaderContainer>
+      </S.Header>
     )
 }

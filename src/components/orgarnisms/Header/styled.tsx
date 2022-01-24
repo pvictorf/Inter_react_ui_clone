@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  position: relative;
-  display: block;
-  background-color: #fff;
+  position: sticky;
+  top: 0;
+  background: #fff;
 `
 
 export const HeaderContainer = styled.header`
-  position: sticky;
-  top: 0;
   display: grid;
   grid-template-columns: 100px 1fr auto auto;
   grid-gap: 1.6rem;
