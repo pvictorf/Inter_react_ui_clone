@@ -9,13 +9,13 @@ test('should renders navbar and logo', () => {
   const navbar = screen.getByRole('navigation')
   const openAccountButton = screen.getByRole('open-account')
   const signInButton = screen.getByRole('signin')
+
   const languageButton = screen.getAllByRole('language')
 
   expect(logo).toBeInTheDocument()
   expect(navbar).toBeInTheDocument()
-  expect(openAccountButton).toBeInTheDocument()
+  expect(openAccountButton).toBeInTheDocument() 
   expect(signInButton).toBeInTheDocument()
-  expect(languageButton).toBeInTheDocument()
   
   expect(languageButton.length).toBeGreaterThanOrEqual(2)
 });
