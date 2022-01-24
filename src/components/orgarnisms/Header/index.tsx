@@ -15,6 +15,7 @@ export const Header = () => {
           <ButtonFilled role="open-account" title="Abra a sua conta" />
           <ButtonOutline role="signin" title="Acessar" />
         </S.Actions>
+        <div>PT | EN</div>
       </S.Header>
     )
 }

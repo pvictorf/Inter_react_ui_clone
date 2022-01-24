@@ -8,12 +8,14 @@ interface Props {
 
 const Outline = styled.button`
   display: block;
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem 1.1rem;
   width: 100%;
+  border: 1px solid rgb(255, 122, 0);
   border-radius: 8px;
-  border-color: rgb(255, 122, 0);
   background: #fff;
   color: rgb(255, 122, 0);
+  font-size: 1.1.rem;
+  font-weight: 600;
 `;
 
 export const ButtonOutline = ({title, role, onClick}: Props) => {

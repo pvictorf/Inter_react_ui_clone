@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Navlink = styled.a`
   color: rgb(22, 22, 22);
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
 `;
 
 export const IconArrowDown = styled.span`
