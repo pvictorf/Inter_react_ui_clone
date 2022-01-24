@@ -3,7 +3,7 @@ import mansupriseImg from '../../../assets/images/persons/mansuprise.png'
 
 export const TopContent = styled.section`
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   margin-top: 4rem;
 `;

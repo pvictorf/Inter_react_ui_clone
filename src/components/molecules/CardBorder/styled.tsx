@@ -15,7 +15,7 @@ export const CardBorderHeader = styled.div`
   padding: 0.5rem 1rem;
   justify-content: space-between;
   border-bottom: 5px solid black;
-  font-size: 1.375rem;
+  font-size: 1.475rem;
   color: rgb(255,122,0);
 `;
 
