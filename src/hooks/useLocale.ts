@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { changeLanguage } from "i18next";
 
-export function useLocale(lang: string) {
+export function useLocale(lang = '') {
   const [activeLocale, setActiveLocale] = useState(lang);
   const [t] = useTranslation()
 

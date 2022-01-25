@@ -10,7 +10,6 @@ import { Navbar } from '../../molecules/Navbar'
 import { Flag } from "../../atoms/Flag";
 
 
-
 export const Header = () => {
 
   const { t, activeLocale, setLocale } = useLocale('ptbr')
