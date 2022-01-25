@@ -4,7 +4,7 @@ import { GoPrimitiveDot, GoX } from 'react-icons/go'
 import { Title } from "../../atoms/Title";
 import { ButtonFilled } from "../../atoms/ButtonFilled";
 import { useLocale } from "../../../hooks/useLocale";
-import { Locale } from "../../atoms/Locale";
+import { Locale } from "../../bosons/Locale";
 
 
 export const CardBorder = () => {

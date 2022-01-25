@@ -17,8 +17,9 @@ const FlagStyled = styled.button`
 
 export const Flag = ({image, locale, active, onClick}: Props) => {
   return (
-    <FlagStyled onClick={onClick} style={{opacity: locale === active ? 1 : 0.6}} >
+    <FlagStyled onClick={onClick} >
       <img 
+        style={{opacity: locale === active ? 1 : 0.5}} 
         width={25}
         alt={image}
         src={require(`../../../assets/images/flags/${image}.svg`)}     

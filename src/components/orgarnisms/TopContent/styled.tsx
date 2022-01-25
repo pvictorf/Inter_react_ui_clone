@@ -3,12 +3,19 @@ import mansupriseImg from '../../../assets/images/persons/mansuprise.png'
 
 export const TopContent = styled.section`
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin-top: 7.5rem;
+`;
+
+export const ImageContainer = styled.div`
+  display: block;
+  max-width: 780px;
+  margin: 0 auto;
 `;
 
 export const Image = styled.img.attrs({src: mansupriseImg})`
-  display: block;
-  margin: 0 auto;
+  vertical-align: bottom;
+  width: 100%;
+  object-fit: cover;
 `;

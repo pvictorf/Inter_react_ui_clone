@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import beta from '../../../assets/images/persons/beta.png'
 
-const contentSize = '400px';
+const contentSize = '450px';
 
 export const BenefitsContent = styled.section`
   display: flex;
@@ -21,7 +21,7 @@ export const Image = styled.img.attrs({src: beta})`
 
 export const Text = styled.p`
   flex: 1;
-  max-width: 600px;
+  max-width: 880px;
   font-size: 2.5rem;
   font-weight: 600;
   color: #ffffff;

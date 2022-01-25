@@ -24,7 +24,7 @@ export const Header = () => {
   return (
       <S.Header className={headerClass} data-active={headerClass}>
         <S.HeaderContainer >
-        <Logo />
+        <Logo fill={headerClass ? 'white' : 'orange'} />
         <Navbar />
         <S.Actions>
           <ButtonFilled role="open-account" title={t('open_account')} />

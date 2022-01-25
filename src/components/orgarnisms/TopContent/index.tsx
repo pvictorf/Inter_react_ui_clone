@@ -1,14 +1,19 @@
 import React from "react";
 import * as S from './styled';
 import { CardBorder } from "../../molecules/CardBorder";
+import { Container } from "../../bosons/Container";
 
 export const TopContent = () => {
   return (
-    <S.TopContent>
-      <CardBorder />
-      <S.Image />
-      {/* TODO: Colocar animações de poligonos atras, utilizar z-index */}
-      {/* <S.PoligionsAnimation /> */}
-    </S.TopContent>
+    /* TODO: Colocar animações de poligonos atras, utilizar z-index */
+    /* <S.PoligionsAnimation /> */
+    <Container>
+      <S.TopContent>
+        <CardBorder />
+        <S.ImageContainer>
+          <S.Image />
+        </S.ImageContainer>
+      </S.TopContent>
+    </Container>
   );
 } 

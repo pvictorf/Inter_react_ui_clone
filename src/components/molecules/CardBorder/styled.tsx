@@ -4,6 +4,7 @@ export const CardBorder = styled.div`
   display: block;
   width: 100%;
   max-width: 510px;
+  margin-bottom: 5rem;
   height: 450px;
   border-radius: 1rem;
   border: 5px solid black;
