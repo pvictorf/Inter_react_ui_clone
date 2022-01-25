@@ -1,15 +1,15 @@
 import React from "react";
+import { useLocale } from "../../../hooks/useLocale";
 import * as S from './styled';
 
 export const BenefitsContent = () => {
+  const {t} = useLocale()
+
   /* TODO: Adicionar animação fade */
   return (
     <S.BenefitsContent>
       <S.Image />
-      <S.Text>
-          Conta digital gratuita, shopping nacional e internacional, 
-          investimentos, seguros, e o que mais a sua vida precisar.
-      </S.Text>
+      <S.Text>{t('free_digital_account')}</S.Text>
     </S.BenefitsContent>
   );
 } 

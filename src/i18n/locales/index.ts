@@ -1,12 +1,12 @@
 import en from './en/translation.json';
-import ptbr from './ptbr/translation.json';
+import ptbr from './pt-BR/translation.json';
 
 // the translations
 export const resources = {
-  en: {
+  'en': {
     translation: en
   },
-  ptbr: {
+  'pt-BR': {
     translation: ptbr
   }
 };

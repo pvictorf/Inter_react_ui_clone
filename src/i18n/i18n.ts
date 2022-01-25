@@ -10,12 +10,12 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "ptbr",
-    fallbackLng: ["en", "ptbr"],
-    debug: true,
+    lng: process.env.REACT_APP_LANG,
+    fallbackLng: ["en", "pt-BR"],
+    debug: false,
     keySeparator: false, // we do not use keys in form messages.welcome
     interpolation: {
-      escapeValue: false // react already safes from xss
+      escapeValue: false 
     },
   });
 

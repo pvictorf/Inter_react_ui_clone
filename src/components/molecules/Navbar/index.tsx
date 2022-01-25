@@ -1,14 +1,17 @@
 import React from 'react';
 import * as S from './styled'
 import { Navlink } from '../../atoms/Navlink';
+import { useLocale } from '../../../hooks/useLocale';
 
 export const Navbar = () => {
+  const {t} = useLocale()
+
   return (
     <S.Navbar role="navigation">
-        <Navlink title="O Inter" icon={true} />
-        <Navlink title="Pra você" icon={true} />
-        <Navlink title="Empresas" icon={true} />
-        <Navlink title="Blog" />
+        <Navlink title={t("inter")} icon={true} />
+        <Navlink title={t("for_you")} icon={true} />
+        <Navlink title={t("companies")} icon={true} />
+        <Navlink title={t("blog")} />
     </S.Navbar>
   )
 }

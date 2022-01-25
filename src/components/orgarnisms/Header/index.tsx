@@ -12,7 +12,7 @@ import { Flag } from "../../atoms/Flag";
 
 export const Header = () => {
 
-  const { t, activeLocale, setLocale } = useLocale('ptbr')
+  const { t, activeLocale, setLocale } = useLocale(process.env.REACT_APP_LANG)
   const [headerClass, setHeaderClass] = useState('')
 
   useScroll({
@@ -28,10 +28,10 @@ export const Header = () => {
         <Navbar />
         <S.Actions>
           <ButtonFilled role="open-account" title={t('open_account')} />
-          <ButtonOutline role="signin" title={t('access')} />
+          <ButtonOutline role="signin" title={t('signin')} />
         </S.Actions>
         <S.Flags>
-          <Flag image="brazil" locale="ptbr" onClick={() => setLocale('ptbr')} active={activeLocale} />
+          <Flag image="brazil" locale="pt-BR" onClick={() => setLocale('pt-BR')} active={activeLocale} />
           <Flag image="usa" locale="en" onClick={() => setLocale('en')} active={activeLocale} />
         </S.Flags>
       </S.HeaderContainer>

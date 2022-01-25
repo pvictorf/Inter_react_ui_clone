@@ -1,6 +1,13 @@
 {
   "home": "Olá",
+  "inter": "Inter",
+  "for_you": "For You",
+  "companies": "Companies",
+  "blog": "Blog",
   "open_account": "Open your account",
-  "access": "Signin",
-  "digital_acount": "Uooooooooooool."
+  "signin": "Signin",
+  "more_cashback": "More cashback for everyone!",
+  "buy_with_cashback": "Buy with cachback",
+  "in_inter_shop": "In Inter Shop, <bold>even those who are not Inter</bold> shop at the best stores and have cashback <bold>in the account they prefer!</bold>",
+  "free_digital_account": "Free digital account, national and international shopping, investments, insurance, and whatever else your life needs."
 }
