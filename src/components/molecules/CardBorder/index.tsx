@@ -5,7 +5,6 @@ import { Title } from "../../atoms/Title";
 import { ButtonFilled } from "../../atoms/ButtonFilled";
 
 
-
 export const CardBorder = () => {
   return (
     <S.CardBorder>

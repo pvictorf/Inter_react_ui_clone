@@ -1,48 +1,39 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocale } from "../../../hooks/useLocale";
+import { useScroll } from "../../../hooks/useScroll";
+
 import * as S from './styled'
 import { ButtonFilled } from "../../atoms/ButtonFilled";
 import { ButtonOutline } from "../../atoms/ButtonOutline";
 import { Logo } from '../../atoms/Logo'
 import { Navbar } from '../../molecules/Navbar'
 import { Flag } from "../../atoms/Flag";
-import { Container } from "../../bosons/Container";
 
 
 
 export const Header = () => {
 
-  const [headerBg, setHeaderBg] = useState('#FFF');
+  const { t, activeLocale, setLocale } = useLocale()
+  const [headerClass, setHeaderClass] = useState('')
 
-  useEffect(() => {
-    const onUserScroll = () => {
-      const scroll = window.scrollY;
-      const height = document.body.offsetHeight - window.innerHeight;
-      const activeArea = height * 0.25;
-
-      if(scroll > activeArea) {
-        setHeaderBg('orange');
-        return;
-      }
-      setHeaderBg('white');
-    }
-
-    window.removeEventListener('scroll', onUserScroll);
-    window.addEventListener('scroll', onUserScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onUserScroll);
-  }, [headerBg]);
+  useScroll({
+    area: 'top',
+    onScrollIn: () => setHeaderClass('active'),
+    onScrollOut: () => setHeaderClass(''),
+  })
 
   return (
-      <S.Header>
+      <S.Header className={headerClass} data-active={headerClass}>
         <S.HeaderContainer >
         <Logo />
         <Navbar />
         <S.Actions>
-          <ButtonFilled role="open-account" title="Abra a sua conta" />
-          <ButtonOutline role="signin" title="Acessar" />
+          <ButtonFilled role="open-account" title={t('open_account')} />
+          <ButtonOutline role="signin" title={t('access')} />
         </S.Actions>
         <S.Flags>
-          <Flag image="brazil" />
-          <Flag image="usa" />
+          <Flag image="brazil" locale="ptbr" onClick={() => setLocale('ptbr')} active={activeLocale} />
+          <Flag image="usa" locale="en" onClick={() => setLocale('en')} active={activeLocale} />
         </S.Flags>
       </S.HeaderContainer>
       </S.Header>

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 interface Props {
-  title: string,
+  title?: string,
   role?: string,
   onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
