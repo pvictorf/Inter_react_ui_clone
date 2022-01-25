@@ -13,7 +13,7 @@ import { Flag } from "../../atoms/Flag";
 
 export const Header = () => {
 
-  const { t, activeLocale, setLocale } = useLocale()
+  const { t, activeLocale, setLocale } = useLocale('ptbr')
   const [headerClass, setHeaderClass] = useState('')
 
   useScroll({

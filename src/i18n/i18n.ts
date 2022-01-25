@@ -10,7 +10,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "en",
+    lng: "ptbr",
     fallbackLng: ["en", "ptbr"],
     debug: true,
     keySeparator: false, // we do not use keys in form messages.welcome

@@ -7,9 +7,9 @@ interface useScrollArgs {
 }
 
 const areas = {
-  'top': 0.25,
+  'top': 0.20,
   'center': 0.50,
-  'bottom': 0.75,
+  'bottom': 0.80,
 }
 
 export function useScroll({area, onScrollIn, onScrollOut}: useScrollArgs) {

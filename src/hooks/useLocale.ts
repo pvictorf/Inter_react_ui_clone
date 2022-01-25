@@ -2,13 +2,14 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { changeLanguage } from "i18next";
 
-export function useLocale(lang = 'ptbr') {
+export function useLocale(lang: string) {
   const [activeLocale, setActiveLocale] = useState(lang);
   const [t] = useTranslation()
 
-  const setLocale = (lang: string) => {
+  const setLocale = async (lang: string) => {
+    if(lang === activeLocale) return;
     setActiveLocale(lang)
-    changeLanguage(activeLocale)
+    return await changeLanguage(lang);
   }
 
   return {
