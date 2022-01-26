@@ -1,16 +1,18 @@
 import React from 'react';
 import { GlobalStyle } from './components/bosons/GlobalStyle'
 import { Header } from './components/orgarnisms/Header'
-import { TopContent } from './components/orgarnisms/TopContent';
-import { BenefitsContent } from './components/orgarnisms/BenefitsContent';
+import { TopSection } from './components/orgarnisms/TopSection';
+import { BenefitsSection } from './components/orgarnisms/BenefitsSection';
+import { BankSection } from './components/orgarnisms/BankSection';
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
         <Header />
-        <TopContent />
-      <BenefitsContent />
+        <TopSection />
+        <BenefitsSection />
+        <BankSection />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import mansupriseImg from '../../../assets/images/persons/mansuprise.png'
 
-export const TopContent = styled.section`
+export const TopSection = styled.section`
   display: flex;
   align-items: end;
   justify-content: space-between;

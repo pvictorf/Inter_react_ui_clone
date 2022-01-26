@@ -3,7 +3,7 @@ import beta from '../../../assets/images/persons/beta.png'
 
 const contentSize = '450px';
 
-export const BenefitsContent = styled.section`
+export const BenefitsSection = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
