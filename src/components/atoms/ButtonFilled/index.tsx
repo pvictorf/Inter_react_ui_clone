@@ -8,6 +8,7 @@ interface Props {
 
 const ButtonFilledStyled = styled.button`
   display: block;
+  cursor: pointer;
   padding: 0.875rem 1.1rem;
   width: 100%;
   border: none;
@@ -19,6 +20,7 @@ const ButtonFilledStyled = styled.button`
 `;
 
 export const ButtonFilled = ({title, role, onClick}: Props) => {
+  /* TODO: Add color by props and icons by children */
   return (
     <ButtonFilledStyled role={role} onClick={onClick}>
       {title}

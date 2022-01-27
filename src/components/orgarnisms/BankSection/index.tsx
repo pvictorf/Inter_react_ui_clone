@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocale } from "../../../hooks/useLocale";
 import { ButtonFilled } from "../../atoms/ButtonFilled";
+import { ButtonOutline } from "../../atoms/ButtonOutline";
 import { BoxArticle } from "../../molecules/BoxArticle";
 import * as S from './styled';
 
@@ -12,44 +13,77 @@ export const BankSection = () => {
 
       <S.InterSuperAppContent>
         <BoxArticle
-          title={t('you_change_super_app')} 
-          subtitle={t('who_has_account_inter')} 
+          title={t('inter_superapp_title')} 
+          subtitle={t('inter_superapp_subtitle')} 
           buttonFilled={<ButtonFilled title="Quero ser Inter" />}
         />
         <S.ImageInterMobile /> 
       </S.InterSuperAppContent>
 
+
       <S.InterBankContent>
         <S.ImageInterMobile /> 
         <BoxArticle
-          title={t('different_and_nofees')} 
-          subtitle={t('plan_invest_future')} 
+          label="Inter Bank"
+          title={t('inter_bank_title')} 
+          subtitle={t('inter_bank_subtitle')} 
         />
       </S.InterBankContent>
 
+
       <S.InterInvestContent>
         <BoxArticle
-          title={t('your_money_choice')} 
-          subtitle={t('practicality_and_security')} 
+          label="Inter Invest"
+          title={t('inter_invest_title')} 
+          subtitle={t('inter_invest_subtitle')} 
         />
         <S.ImageInterInvest /> 
       </S.InterInvestContent>
 
-      <S.InterInvestContent>
+
+      <S.InterShopContent>
         <S.ImageInterShop />
         <BoxArticle
-          title={t('you_enter_earn_cashback')} 
-          subtitle={t('you_looking_one_place')} 
+          label="Inter Shop"
+          title={t('inter_shop_title')} 
+          subtitle={t('inter_shop_subtitle')} 
+          buttonFilled={<ButtonFilled title='Ganhar Cashback' />}
         />
-      </S.InterInvestContent>
+      </S.InterShopContent>
+
 
       <S.InterEnterprisesContent>
         <BoxArticle
-          title={t('you_enter_earn_cashback')} 
-          subtitle={t('you_looking_one_place')} 
+          label="Inter Enterprises"
+          title={t('inter_enterprises_title')} 
+          subtitle={t('inter_enterprises_subtitle')} 
+          buttonFilled={<ButtonFilled title='Conhecer a Conta Digital PJ' />}
+          buttonOutline={<ButtonOutline title='Conhecer a Conta Digital MEI' />}
         />
-        <S.ImageInterEnterprises />
+         <S.ImageInterEnterprises />
       </S.InterEnterprisesContent>
+
+
+      <S.InterSecurityContent>
+      <S.ImageInterSecurity />
+        <BoxArticle
+          label="Inter Secutiry"
+          title={t('inter_security_title')} 
+          subtitle={t('inter_security_subtitle')} 
+          buttonFilled={<ButtonFilled title='Conhecer a Inter Seguros' />}
+        />
+      </S.InterSecurityContent>
+
+
+      <S.InterFinanceContent>
+        <BoxArticle
+          label="Empréstimos e Financiamento"
+          title={t('inter_finance_title')} 
+          subtitle={t('inter_finance_subtitle')} 
+          buttonFilled={<ButtonFilled title='Simular meu Empréstimo' />}
+        />
+        <S.ImageInterFinance />
+      </S.InterFinanceContent>
 
     </S.BankSection>
   );

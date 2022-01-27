@@ -8,6 +8,7 @@ interface Props {
 
 const ButtonOutlineStyled = styled.button`
   display: block;
+  cursor: pointer;
   padding: 0.8rem 1.1rem;
   width: 100%;
   border: 1px solid rgb(255, 122, 0);

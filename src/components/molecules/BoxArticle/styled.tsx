@@ -7,8 +7,9 @@ export const BoxArticle = styled.article`
 `
 
 export const Label = styled.h1`
-  font-size: 2rem;
+  font-size: 1.525rem;
   color: #6A6C72;
+  font-weight: 600;
 `
 
 export const Title = styled.h2`

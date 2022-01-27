@@ -4,12 +4,12 @@ export const BankSection = styled.section`
   display: grid;
   grid-gap: 6rem;
   grid-template-rows: max-content;
-  padding: 4rem 3rem;
+  padding: 6rem 3rem;
 `;
 
 export const InterSuperAppContent = styled.div`
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 2.5rem;
   width: 100%;
   max-width: 1300px;
   justify-self: center;
@@ -43,6 +43,11 @@ export const InterSecurityContent = styled.div`
   justify-content: space-around;  
 `;
 
+export const InterFinanceContent = styled.div`
+  display: flex;
+  justify-content: space-around;  
+`;
+
 export const ImageInterMobile = styled.img.attrs({
   src: require('../../../assets/images/common/inter_mobile.png')
 })``;
@@ -63,4 +68,9 @@ export const ImageInterEnterprises = styled.img.attrs({
 
 export const ImageInterSecurity = styled.img.attrs({
   src: require('../../../assets/images/common/inter_security.png')
+})``;
+
+
+export const ImageInterFinance = styled.img.attrs({
+  src: require('../../../assets/images/common/inter_finance.png')
 })``;
