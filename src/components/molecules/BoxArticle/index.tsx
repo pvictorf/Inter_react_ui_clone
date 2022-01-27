@@ -3,19 +3,23 @@ import * as S from "./styled"
 interface BoxArticleProps {
   label?: string;
   title: string;
-  subtitle?: string;
+  subtitle: string;
   buttonFilled?: JSX.Element;
   buttonOutline?: JSX.Element;
 }
 
-export const BoxArticle = (props: BoxArticleProps) => {
+export const BoxArticle = ({label, title, subtitle, buttonFilled, buttonOutline}: BoxArticleProps) => {
   return(
     <S.BoxArticle>
-      {props.label && <S.Label />}
-      {props.title && <S.Title />}
-      {props.subtitle && <S.Subtitle />}
-      {props.buttonFilled && props.buttonFilled }
-      {props.buttonOutline && props.buttonOutline }
+      {label && <S.Label>{label}</S.Label>}
+
+      {title && <S.Title>{title}</S.Title>}
+
+      {subtitle && <S.Subtitle>{subtitle}</S.Subtitle>}
+
+      { buttonFilled && buttonFilled}
+
+      {buttonOutline && buttonOutline}
     </S.BoxArticle>
   );
 }

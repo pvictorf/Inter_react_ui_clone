@@ -8,7 +8,7 @@ interface Props {
 
 const ButtonFilledStyled = styled.button`
   display: block;
-  padding: 0.8rem 1.1rem;
+  padding: 0.875rem 1.1rem;
   width: 100%;
   border: none;
   border-radius: 8px;

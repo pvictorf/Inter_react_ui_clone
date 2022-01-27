@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import beta from '../../../assets/images/persons/beta.png'
+import beta from '../../../assets/images/common/beta.png'
 
 const contentSize = '450px';
 

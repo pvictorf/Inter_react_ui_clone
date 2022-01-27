@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import mansupriseImg from '../../../assets/images/persons/mansuprise.png'
+import mansupriseImg from '../../../assets/images/common/mansuprise.png'
 
 export const TopSection = styled.section`
   display: flex;

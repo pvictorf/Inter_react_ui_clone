@@ -1,6 +1,7 @@
 {
   "home": "Olá",
   "inter": "O Inter",
+  "inter_enterprises": "Inter Empresas",
   "for_you": "Para você",
   "companies": "Empresas",
   "blog": "Blog",
@@ -9,5 +10,14 @@
   "more_cashback": "Mais cashback para todo mundo!",
   "buy_with_cashback": "Comprar com cashback",
   "in_inter_shop": "No Inter Shop, <bold>até quem não é Inter</bold> compra nas melhores lojas e tem cashback <bold>na conta que preferir!</bold>",
-  "free_digital_account": "Conta digital gratuita, shopping nacional e internacional, investimentos, seguros, e o que mais a sua vida precisar."
+  "free_digital_account": "Conta digital gratuita, shopping nacional e internacional, investimentos, seguros, e o que mais a sua vida precisar.",
+  "you_change_super_app": "Você muda para o Super App do Inter e para de mudar de aplicativo.",
+  "who_has_account_inter": "Quem tem conta no Inter tem soluções completas para todos os momentos.",
+  "want_be_inter": "Quem tem conta no Inter tem soluções completas para todos os momentos.",
+  "different_and_nofees": "Diferente, sem pegadinhas e sem tarifas: como você sempre quis.",
+  "plan_invest_future": "Planeje e invista no futuro do seu filho com a Conta Kids ou abra uma Conta Digital 100% isenta de tarifas e com tudo que você precisa.",
+  "your_money_choice": "Seu dinheiro, suas escolhas. Invista do seu jeito!",
+  "practicality_and_security": "Praticidade e segurança. Conheça a Inter Invest, nossa plataforma unificada de investimentos.",
+  "you_enter_earn_cashback": "Você entra no shopping sem sair do Inter e ainda ganha cashback.",
+  "you_looking_one_place": "Tudo o que você procura em um só lugar. No Inter Shop você tem dinheiro de volta direto na sua conta."
 }

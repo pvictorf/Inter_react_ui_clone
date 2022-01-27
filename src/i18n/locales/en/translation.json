@@ -1,6 +1,7 @@
 {
   "home": "Olá",
   "inter": "Inter",
+  "inter_enterprises": "Inter Companies",
   "for_you": "For You",
   "companies": "Companies",
   "blog": "Blog",
@@ -9,5 +10,14 @@
   "more_cashback": "More cashback for everyone!",
   "buy_with_cashback": "Buy with cachback",
   "in_inter_shop": "In Inter Shop, <bold>even those who are not Inter</bold> shop at the best stores and have cashback <bold>in the account they prefer!</bold>",
-  "free_digital_account": "Free digital account, national and international shopping, investments, insurance, and whatever else your life needs."
+  "free_digital_account": "Free digital account, national and international shopping, investments, insurance, and whatever else your life needs.",
+  "you_change_super_app": "You switch to Inter Super App and stop switching apps.",
+  "who_has_account_inter": "Whoever has an account at Inter has complete solutions for every moment.",
+  "want_be_inter": "Whoever has an account at Inter has complete solutions for every moment.",
+  "different_and_nofees": "Different, no tricks and no fees: just like you always wanted.",
+  "plan_invest_future": "Plan and invest in your child's future with the Kids Account or open a 100% fee-free Digital Account with everything you need.",
+  "your_money_choice": "Your money, your choices. Invest your way!",
+  "practicality_and_security": "Practicality and security. Meet Inter Invest, our unified investment platform.",
+  "you_enter_earn_cashback": "You enter the mall without leaving Inter and still earn cashback.",
+  "you_looking_one_place": "Everything you are looking for in one place. At Inter Shop you have cash back straight into your account."
 }
