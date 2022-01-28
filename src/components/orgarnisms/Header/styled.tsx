@@ -5,6 +5,7 @@ export const Header = styled.header`
   top: 0;
   background: #fff;
   transition: all 0.2s ease-in;
+  z-index: 5;
 
   &.active {
     color: #fff;
