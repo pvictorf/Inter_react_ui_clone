@@ -2,12 +2,17 @@
 
 🏆 Projeto para portifólio um clone da interface da página web do Inter utilizando as técnicas e tecnologias:
 
-**React | Styled Components | Jest | React Icons | Atomic Design | TypeScript**
+**React TypeScript | Internationalization i18n | Styled Components | Jest | Atomic Design**
 
+<br/>
 
-![print1]('./screenshots/print1.gif')
+![](screenshots/print1.gif)
 
-![print1]('./screenshots/print2.gif')
+<br/>
+
+![](screenshots/print2.gif)
+
+<br/>
 
 ## Instalando as dependências e executando
 
@@ -15,3 +20,12 @@
 npm install
 npm run dev
 ```
+
+## Todo (em andamento)
+
+- Implementar mais testes
+- Utilizar o Zustand como gerenciador de estados
+- Componentizar os elementos dos formulários
+- Integrar com libs para validação formulário
+- Finalizar layout web
+- Iniciar layout mobile
