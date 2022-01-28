@@ -1,28 +1,18 @@
 import styled from 'styled-components'
+import { Button, ButtonProps } from '../Button'
 
-interface Props {
-  title: string,
-  role?: string,
-  onClick?: React.MouseEventHandler<HTMLButtonElement>
-}
-
-const ButtonOutlineStyled = styled.button`
-  display: block;
-  cursor: pointer;
-  padding: 0.8rem 1.1rem;
-  width: 100%;
+const ButtonOutlineStyled = styled(Button)`
   border: 1px solid rgb(255, 122, 0);
-  border-radius: 8px;
   background: #fff;
   color: rgb(255, 122, 0);
-  font-size: 1.1.rem;
-  font-weight: 600;
 `;
 
-export const ButtonOutline = ({title, role, onClick}: Props) => {
+export const ButtonOutline = ({title, role, onClick, children, stay = 'left'}: ButtonProps) => {
   return (
     <ButtonOutlineStyled role={role} onClick={onClick}>
-      {title}
+      {children === 'left' && children}
+        {title}
+      {children === 'right' && children}
     </ButtonOutlineStyled>
   )
 }
