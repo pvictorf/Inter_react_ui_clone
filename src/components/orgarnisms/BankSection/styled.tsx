@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+import intermobile from '../../../assets/images/common/inter_mobile.png'
+import interinvest from '../../../assets/images/common/inter_invest.png'
+import interlogo from '../../../assets/images/common/inter_shop.png'
+import interenterprise from '../../../assets/images/common/inter_enterprise.png'
+import intersecurity from '../../../assets/images/common/inter_security.png'
+import interfinance from '../../../assets/images/common/inter_finance.png'
+
 export const BankSection = styled.section`
   display: grid;
   grid-gap: 6rem;
@@ -49,28 +56,28 @@ export const InterFinanceContent = styled.div`
 `;
 
 export const ImageInterMobile = styled.img.attrs({
-  src: require('../../../assets/images/common/inter_mobile.png')
+  src: intermobile
 })``;
 
 export const ImageInterInvest = styled.img.attrs({
-  src: require('../../../assets/images/common/inter_invest.png')
+  src: interinvest
 })``;
 
 export const ImageInterShop = styled.img.attrs({
-  src: require('../../../assets/images/common/inter_shop.png')
+  src: interlogo
 })`
   border-radius: 8rem 0 8rem 0;
 `;
 
 export const ImageInterEnterprises = styled.img.attrs({
-  src: require('../../../assets/images/common/inter_enterprise.png')
+  src: interenterprise
 })``;
 
 export const ImageInterSecurity = styled.img.attrs({
-  src: require('../../../assets/images/common/inter_security.png')
+  src: intersecurity
 })``;
 
 
 export const ImageInterFinance = styled.img.attrs({
-  src: require('../../../assets/images/common/inter_finance.png')
+  src: interfinance
 })``;
