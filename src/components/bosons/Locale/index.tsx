@@ -13,7 +13,7 @@ export const Locale = ({translation, values, defaults, components }: Props) => {
       i18nKey={translation}
       values={values}
       defaults={defaults}
-      components={{...components, italic: <i />, bold: <strong />}}
+      components={{...components, italic: <i />, bold: <strong />, a: <a href="/">link</a>}}
     />
   )
 }
