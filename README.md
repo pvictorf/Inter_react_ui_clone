@@ -2,7 +2,7 @@
 
 🏆 Projeto para portifólio um clone da interface da página web do Inter utilizando as técnicas e tecnologias:
 
-**React TypeScript | Internationalization i18n | Styled Components | Jest | Atomic Design**
+**React TypeScript | Internationalization i18n | Styled Components  | Atomic Design**
 
 <br/>
 
