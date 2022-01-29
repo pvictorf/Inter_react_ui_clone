@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocale } from "../../../hooks/useLocale";
+import { Locale } from "../../bosons/Locale";
 import { ButtonFilled } from "../../atoms/ButtonFilled";
 import { ButtonOutline } from "../../atoms/ButtonOutline";
 import { BoxArticle } from "../../molecules/BoxArticle";
@@ -26,7 +27,7 @@ export const BankSection = () => {
         <BoxArticle
           label="Inter Bank"
           title={t('inter_bank_title')} 
-          subtitle={t('inter_bank_subtitle')} 
+          subtitle={<Locale translation="inter_bank_subtitle" />} 
         />
       </S.InterBankContent>
 
