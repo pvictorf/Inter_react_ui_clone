@@ -2,8 +2,8 @@ import * as S from "./styled"
 
 interface BoxArticleProps {
   label?: string;
-  title: string;
-  subtitle: string;
+  title: string | JSX.Element;
+  subtitle: string | JSX.Element;
   buttonFilled?: JSX.Element;
   buttonOutline?: JSX.Element;
 }

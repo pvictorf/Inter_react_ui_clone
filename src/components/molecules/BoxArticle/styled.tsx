@@ -22,4 +22,10 @@ export const Subtitle = styled.h3`
   font-size: 1.1rem;
   color: #6A6C72;
   font-weight: 400;
+
+  & > a {
+    text-decoration: none;
+    color: rgb(255,122,0);
+    font-weight: 600;
+  }
 `
