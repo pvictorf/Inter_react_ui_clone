@@ -5,6 +5,7 @@ import { ButtonFilled } from "../../atoms/ButtonFilled";
 import { ButtonOutline } from "../../atoms/ButtonOutline";
 import { BoxArticle } from "../../molecules/BoxArticle";
 import * as S from './styled';
+import { CarouselSlide } from "../../molecules/CarouselSlide";
 
 export const BankSection = () => {
   const {t} = useLocale()
@@ -18,7 +19,7 @@ export const BankSection = () => {
           subtitle={t('inter_superapp_subtitle')} 
           buttonFilled={<ButtonFilled title="Quero ser Inter" />}
         />
-        <S.ImageInterMobile /> 
+        <CarouselSlide />
       </S.InterSuperAppContent>
 
 

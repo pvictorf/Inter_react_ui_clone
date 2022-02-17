@@ -18,11 +18,10 @@ export const InterSuperAppContent = styled.div`
   display: grid;
   grid-gap: 2.5rem;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1350px;
   justify-self: center;
-  justify-items: center;
+  align-items: center;
   grid-template-columns: minmax(200px, 360px) 1fr;
-
 `;
 
 export const InterBankContent = styled.div`
