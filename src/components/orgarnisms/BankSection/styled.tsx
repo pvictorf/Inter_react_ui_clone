@@ -66,6 +66,8 @@ export const ImageInterInvest = styled.img.attrs({
 export const ImageInterShop = styled.img.attrs({
   src: interlogo
 })`
+  width: 100%;
+  max-width: 450px;
   border-radius: 8rem 0 8rem 0;
 `;
 
