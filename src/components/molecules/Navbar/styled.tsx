@@ -8,5 +8,5 @@ export const Navbar = styled.nav`
   justify-items: center;
   justify-content: end;
   padding: 0 2rem;
-  border-right: 1px dashed rgb(140, 145, 169);
+  border-right: 1px dashed rgb(255 255 255);
 `
