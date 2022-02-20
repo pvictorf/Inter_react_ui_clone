@@ -6,12 +6,10 @@ interface CreditCardProps {
   name: string;
 }
 
-interface CardElement extends HTMLDivElement {
-  transitionId: NodeJS.Timeout
-}
 
 export const CreditCard = ({name}: CreditCardProps) => {
-  const cardEl = useRef<CardElement|null>(null);
+  const cardEl = useRef<HTMLDivElement>(null);
+  const cardTransitionRef = useRef<NodeJS.Timeout>();
    
   useEffect(() => {
     cardEl.current?.addEventListener('mousemove', cardEffect)
@@ -48,9 +46,9 @@ export const CreditCard = ({name}: CreditCardProps) => {
   function cardTransition(milleseconds = 400) {
     const card = cardEl.current
     if(card) {  
-      clearTimeout(card.transitionId)
+      if(cardTransitionRef.current) clearTimeout(cardTransitionRef.current);
       card.style.transition = `transform ${milleseconds}ms`
-      card.transitionId = setTimeout(() => { card.style.transition = ''}, milleseconds) 
+      cardTransitionRef.current = setTimeout(() => { card.style.transition = ''}, milleseconds) 
     }
   }
 
